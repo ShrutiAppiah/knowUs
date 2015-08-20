@@ -1342,11 +1342,15 @@ mark,
   color: #777;
 }
 .text-notsomuted {
+<<<<<<< HEAD
   font-size: 16px;
   color: #F6B977;
 }
 .text-outthere {
   color: #FF9966;
+=======
+  color: #E64848;
+>>>>>>> origin/gh-pages
 }
 .text-primary {
   color: #337ab7;
