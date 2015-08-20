@@ -625,6 +625,18 @@ section h3.section-subheading {
     }
 }
 
+section#team {
+    background-color: #000;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+section#team .section-heading {
+    color: #fff;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;

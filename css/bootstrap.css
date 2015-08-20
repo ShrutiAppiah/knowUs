@@ -1341,6 +1341,9 @@ mark,
 .text-muted {
   color: #777;
 }
+.text-notsomuted {
+  color: #E64848;
+}
 .text-primary {
   color: #337ab7;
 }
