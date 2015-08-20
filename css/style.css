@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #bd0b5c;
+    color: #fea600;
 }
 
 p {
@@ -26,6 +26,10 @@ p.large {
     font-size: 16px;
 }
 
+p.extralarge {
+  font-size: 19px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -35,7 +39,7 @@ a.active {
 }
 
 a {
-    color: #bd0b5c;
+    color: #fea600;
 }
 
 a:hover,
@@ -69,12 +73,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #bd0b5c;
+    border-color: #fea600;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #bd0b5c;
+    background-color: #fea600;
 }
 
 .btn-primary:hover,
@@ -108,25 +112,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #bd0b5c;
-    background-color: #bd0b5c;
+    border-color: #fea600;
+    background-color: #fea600;
 }
 
 .btn-primary .badge {
-    color: #bd0b5c;
+    color: #fea600;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #bd0b5c;
+    border-color: #fea600;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #bd0b5c;
+    background-color: #fea600;
 }
 
 .btn-xl:hover,
@@ -160,12 +164,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #bd0b5c;
-    background-color: #bd0b5c;
+    border-color: #fea600;
+    background-color: #fea600;
 }
 
 .btn-xl .badge {
-    color: #bd0b5c;
+    color: #fea600;
     background-color: #fff;
 }
 
@@ -176,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #bd0b5c;
+    color: #fea600;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -191,8 +195,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #bd0b5c;
-    background-color: #bd0b5c;
+    border-color: #fea600;
+    background-color: #fea600;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +205,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #bd0b5c;
+    background-color: #fea600;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +219,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #bd0b5c;
+    color: #fea600;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #bd0b5c;
+    background-color: #fea600;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -406,13 +410,15 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    font-family: 'Raleway';
+    font-size: 22px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-size: 19px;
+    /*font-style: italic;*/
 }
 
 #portfolio * {
@@ -491,7 +497,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #bd0b5c;
+    background-color: #fea600;
 }
 
 .timeline>li .timeline-image h4 {
@@ -625,6 +631,18 @@ section h3.section-subheading {
     }
 }
 
+section#team {
+    background-color: #000;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+section#team .section-heading {
+    color: #fff;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -632,10 +650,13 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #4d4d4d;
 }
 
 .team-member h4 {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 30px;
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
@@ -678,7 +699,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #bd0b5c;
+    border-color: #fea600;
     box-shadow: none;
 }
 
@@ -747,7 +768,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #4D4D4D;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -756,7 +777,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #bd0b5c;
+    background-color: #E64848;
 }
 
 .btn:focus,
@@ -844,12 +865,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #bd0b5c;
+    background: #fea600;
 }
 
 ::selection {
     text-shadow: none;
-    background: #bd0b5c;
+    background: #fea600;
 }
 
 img::selection {
@@ -861,5 +882,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #bd0b5c;
+    webkit-tap-highlight-color: #fea600;
 }

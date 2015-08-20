@@ -1341,6 +1341,13 @@ mark,
 .text-muted {
   color: #777;
 }
+.text-notsomuted {
+  font-size: 16px;
+  color: #F6B977;
+}
+.text-outthere {
+  color: #FF9966;
+}
 .text-primary {
   color: #337ab7;
 }
