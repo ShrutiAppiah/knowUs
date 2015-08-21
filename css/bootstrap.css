@@ -1339,19 +1339,17 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #777;
+  color: #E6E6E6;
 }
 .text-notsomuted {
-<<<<<<< HEAD
   font-size: 16px;
   color: #F6B977;
 }
 .text-outthere {
   color: #FF9966;
-=======
-  color: #E64848;
->>>>>>> origin/gh-pages
+  /*color: #E64848;*/
 }
+
 .text-primary {
   color: #337ab7;
 }
