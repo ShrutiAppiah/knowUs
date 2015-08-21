@@ -417,23 +417,14 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
-<<<<<<< HEAD
     font-family: 'Montserrat';
-=======
-    font-family: 'Raleway';
->>>>>>> origin/gh-pages
     font-size: 22px;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-<<<<<<< HEAD
-    font-family: 'Raleway',"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-=======
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 19px;
->>>>>>> origin/gh-pages
     /*font-style: italic;*/
 }
 
