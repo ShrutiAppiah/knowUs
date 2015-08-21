@@ -1342,8 +1342,13 @@ mark,
   color: #777;
 }
 .text-notsomuted {
-  color: #E64848;
+  font-size: 16px;
+  color: #F6B977;
 }
+.text-outthere {
+  color: #FF9966;
+}
+
 .text-primary {
   color: #337ab7;
 }
