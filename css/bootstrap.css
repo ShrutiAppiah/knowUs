@@ -1342,12 +1342,28 @@ mark,
   color: #E6E6E6;
 }
 .text-notsomuted {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/gh-pages
+>>>>>>> 296b10ed7618e11625877a0d00af1ab982199fda
   font-size: 16px;
   color: #F6B977;
 }
 .text-outthere {
   color: #FF9966;
+<<<<<<< HEAD
   /*color: #E64848;*/
+=======
+<<<<<<< HEAD
+=======
+=======
+  color: #E64848;
+>>>>>>> origin/gh-pages
+>>>>>>> origin/gh-pages
+>>>>>>> 296b10ed7618e11625877a0d00af1ab982199fda
 }
 
 .text-primary {
